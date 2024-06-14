@@ -1,10 +1,11 @@
+###Registro de usuario
 POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
     "name":"prueba",
     "email":"rp@hm.com",
-    "password":"123456"
+    "password":"123456" 
     
 }
 
@@ -16,11 +17,11 @@ Content-Type: application/json
 
 {
     "name":"prueba2",
-    "email":"rp2@hm.com",
-    "password":"1234567"
+    "email":"rp@hm.com",
+    "password":"123456"
     
 }
 
 ### users
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MTQ0MDY0OTYsImV4cCI6MTcxNDQwNjU1Nn0.g4PnYtkviRmQR3WYYSE58YEs2urxTJkSM6gCza7zMAU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MTc0NTIzMjEsImV4cCI6MTcxNzQ1MzIwMX0.bvwqyPVCYrZ60GGIKuz8YU1XVxk8i24zx74twOmQ1hk
